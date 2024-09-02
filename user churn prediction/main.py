@@ -61,7 +61,7 @@ sns.countplot(data=data,x="churn")# here we came to know that given dataset is i
 
 
 #Box plot for outlier detection
-box_plotting(data,10,2,(60,240))
+box_plotting(data,10,2,(20,40))
 
 
 
