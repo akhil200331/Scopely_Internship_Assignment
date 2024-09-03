@@ -42,16 +42,16 @@
 
 # src
   1. box_plotting1.py
-      # I used this method for outlier detection using boxplot
+      I used this method for outlier detection using boxplot
   2. update_metrics.py
-      # I wrote this function to update the metrics in a dataframe which helps us to compare easily
+      I wrote this function to update the metrics in a dataframe which helps us to compare easily
 
 
 
 # Used Generative AI Tools
    1. Only One tool (ChatGPT)
-       # i. With so many machine learning libraries available, it can be difficult to remember which one to use for specific tasks. Using reference materials or guides can simplify the process of selecting the right library for your needs.
-       # ii. From 4-b I came to know that the data is imabalanced. To work efficiently with dataset I don't know what to do. So I approached GPT so GPT provided me how to do oversampling for minority class.
+       i. With so many machine learning libraries available, it can be difficult to remember which one to use for specific tasks. Using reference materials or guides can simplify the process of selecting the right library for your needs.
+       ii. From 4-b I came to know that the data is imabalanced. To work efficiently with dataset I don't know what to do. So I approached GPT so GPT provided me how to do oversampling for minority class.
 
 
 # Shap Model (Interpretable,Model-Agnostic)
