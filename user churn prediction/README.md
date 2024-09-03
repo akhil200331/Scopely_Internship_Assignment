@@ -1,41 +1,41 @@
 # main.py
-1. First import necessary libraries which we want
-2. Data Loading
-3. Data preprocessing
-   # a. Drop Unnecessary columns (UserID)
-   # b. Check for null values if there any imputate
-   # c. Encoding the categorical variables
-4. EDA
-   # a. Outlier Detection (Distortion between data distribution) if any remove/imputate if we consider certain attribute is important 
-   # b. Count plot for churn dataset to check data is imbalanced or not
-   # c. Heatmap to see correlation between variables (mainly with target variable)
-5. Feature Engineering
-   # a. Normalize the data except for categorical variables
-6. Splitting the data
-   # a. 4:1 ratio we divide the data inorder to train a model and validate it
+# 1. First import necessary libraries which we want
+# 2. Data Loading
+# 3. Data preprocessing
+   a. Drop Unnecessary columns (UserID)
+   b. Check for null values if there any imputate
+   c. Encoding the categorical variables
+# 4. EDA
+   a. Outlier Detection (Distortion between data distribution) if any remove/imputate if we consider certain attribute is important 
+   b. Count plot for churn dataset to check data is imbalanced or not
+   c. Heatmap to see correlation between variables (mainly with target variable)
+# 5. Feature Engineering
+   a. Normalize the data except for categorical variables
+# 6. Splitting the data
+   a. 4:1 ratio we divide the data inorder to train a model and validate it
 
 # Extra operation:
     1. As from (4-b) we clearly know that the data is slightly imbalanced
     2. So I did oversampling using smote library for minority class for only training
 
 
-7. Model Training
-   # a. Random Forest 
-   # b. LIGHTGBM
-   # c. K-Nearesr Neighbor
-   # d. Gaussian Naive Bayes
-   # e. Stacked Classifier (Gaussian Naive Bayes+KNN)
+# 7. Model Training
+   a. Random Forest 
+   b. LIGHTGBM
+   c. K-Nearesr Neighbor
+   d. Gaussian Naive Bayes
+   e. Stacked Classifier (Gaussian Naive Bayes+KNN)
 
 
-8. Model Evaluation I used metrics Accuracy,precision,recall,f1-score
-   # a. accuracy= no of correctly identified / total observations (LIGHTGBM)
-   # b. Precision= TP/(TP+FP) (KNN)
-   # c. recall=TP/TP+FN  as inorder to increase our users which the main important is not to loose old users. so in which we have to predict correctly such that minimizing fn is good (Naive Bayes)
-   # d. f1-score (Naive Bayes only) 
+# 8. Model Evaluation I used metrics Accuracy,precision,recall,f1-score
+   a. accuracy= no of correctly identified / total observations (LIGHTGBM)
+   b. Precision= TP/(TP+FP) (KNN)
+   c. recall=TP/TP+FN  as inorder to increase our users which the main important is not to loose old users. so in which we have to predict correctly such that minimizing fn is good (Naive Bayes)
+   d. f1-score (Naive Bayes only) 
 
 
-9. Feature Importance I used SHAP model (Explainable AI)
-   # a. By using SHAP,  you can gain insights into the feature importances and contributions of features to predictions from Naive Bayes models.
+# 9. Feature Importance I used SHAP model (Explainable AI)
+   a. By using SHAP,  you can gain insights into the feature importances and contributions of features to predictions from Naive Bayes models.
 
 
 
