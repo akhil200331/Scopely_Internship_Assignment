@@ -22,7 +22,7 @@ import pickle
 # DATA LOADING
 
 # Reading csv file
-data=pd.read_csv("D:/SCOPELY INTERNSHIP ASSIGNMENT/user churn prediction/data/game_user_churn.csv")
+data=pd.read_csv("user churn prediction/data/game_user_churn.csv")
 
 # print(data.head()) #used to display first 5 rows or tuples
 
@@ -216,3 +216,7 @@ shap_values = explainer.shap_values(X_test)
 # Plot the SHAP summary plot for the first class
 shap.summary_plot(shap_values, X_test, feature_names=list(data.columns))
 
+
+#Saving the model
+with open('user churn prediction\\models\\naive_bayes_model.pkl', 'wb') as file:
+    pickle.dump(nb, file)
