@@ -3,8 +3,8 @@
 # main_Game_2048.py
   1. grid_size=4*4
   2. start the game (play_game)
-      # First best possible by Agent (Left,Right,Up,Down)
-      # Until Game is over we play the game
+      1. First best possible by Agent (Left,Right,Up,Down)
+      2. Until Game is over we play the game
 
 # Adding_the_tile_after_Movement.py
     1. The add_new_tile function places a random tile (2 or 4) in an empty cell of the given grid.
